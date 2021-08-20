@@ -9,7 +9,6 @@ echo "Outer variable: ${outer_variable:=value of the outer variable} and the BAS
     inside_variable="value of the inside variable inside";
 
     echo "Outer variable inside after assigment: ${outer_variable:-it is not defined} and the BASH_SUBSHELL: $BASH_SUBSHELL";
-
 )
 
 echo "Outer variable: ${outer_variable:-value of the outer variable} and the BASH_SUBSHELL: $BASH_SUBSHELL";
